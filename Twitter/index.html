@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Twitter Search</title>
+  <link rel=stylesheet href="enyo.css">
+  <script src="enyo.js"></script>
+  <script src="Tweet.js"></script>
+</head>
+
+<body>
+	<script type="text/javascript">
+		var t = new Tweet({
+		  icon: "thumbs1.jpg",
+		  handle: "unwiredben", 
+		  text: "This is my tweet"});
+		 
+		t.renderInto(document.body);
+	</script>
+</body>
+
+</html>
